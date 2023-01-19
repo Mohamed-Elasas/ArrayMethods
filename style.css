@@ -55,18 +55,13 @@ h2 {
 }
 
 h3 {
+  width: 100%;
   border-bottom: 1px solid #fff;
   padding: 0px;
   display: flex;
   justify-content: space-between;
   font-weight: 100;
   margin: 5px 0 0;
-}
-h3 strong {
-  display: inline-block;
-}
-h3 span {
-  display: inline-block;
 }
 
 .person {

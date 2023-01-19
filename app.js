@@ -39,9 +39,9 @@ function updateDOM(providedData = data) {
   providedData.forEach((item) => {
     const element = document.createElement("div");
     element.classList.add("person");
-    element.innerHTML = `<h3>${item.name}<strong>${formatMoney(
+    element.innerHTML = `<h3><strong>${item.name}</strong>${formatMoney(
       item.money
-    )}</strong></h3>`;
+    )}</h3>`;
     main.appendChild(element);
   });
 }
